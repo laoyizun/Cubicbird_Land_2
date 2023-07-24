@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.29"
+        "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.29",
+        "cubicbird-land-ballgame-ext": "pub:54602-10911-37079-98020"
     },
     "files": [
         "main.blocks",
