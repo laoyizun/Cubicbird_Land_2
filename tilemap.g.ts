@@ -2,6 +2,12 @@
 namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const transparency16 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile11 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile8 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile10 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -35,7 +41,6 @@ namespace myTiles {
 2 . . . . . . . . 2 
 2 2 2 . . . . 2 2 2 
 `, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.darkGroundCenter,sprites.castle.tileGrass3,myTiles.tile8,myTiles.tile10,myTiles.tile11], TileScale.Sixteen);
-        
         }
         return null;
     })
@@ -43,7 +48,7 @@ namespace myTiles {
     helpers._registerFactory("tile", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "transparency16":return transparency16;
-            case "dz_myTile2":
+            case "myTile2":
             case "tile11":return tile11;
             case "myTile":
             case "tile8":return tile8;

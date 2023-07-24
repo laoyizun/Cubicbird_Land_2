@@ -4,7 +4,7 @@
     "dependencies": {
         "device": "*",
         "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.29",
-        "cubicbird-land-ballgame-ext": "pub:54602-10911-37079-98020"
+        "CBL-ballgame-ext": "pub:23882-47040-20797-10520"
     },
     "files": [
         "main.blocks",
