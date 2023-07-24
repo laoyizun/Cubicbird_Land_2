@@ -1,3 +1,4 @@
+game.pushScene()
 /**
  * scene_util.captureRegisteringRoomScenes(() => {
  * 
@@ -7,4 +8,4 @@
  * 
  * })
  */
-game.pushScene()
+cbland.startVillage(false)
