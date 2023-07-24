@@ -34,7 +34,7 @@ namespace myTiles {
 2 . . . . . . . . 2 
 2 . . . . . . . . 2 
 2 2 2 . . . . 2 2 2 
-`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.darkGroundCenter,sprites.castle.tileGrass3,myTiles.dz_tile8,myTiles.dz_tile10,myTiles.dz_tile11], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.darkGroundCenter,sprites.castle.tileGrass3,myTiles.tile8,myTiles.tile10,myTiles.tile11], TileScale.Sixteen);
         
         }
         return null;
@@ -44,11 +44,11 @@ namespace myTiles {
         switch(helpers.stringTrim(name)) {
             case "transparency16":return transparency16;
             case "dz_myTile2":
-            case "dz_tile11":return dz_tile11;
-            case "dz_myTile":
-            case "dz_tile8":return dz_tile8;
-            case "dz_myTile1":
-            case "dz_tile10":return dz_tile10;
+            case "tile11":return tile11;
+            case "myTile":
+            case "tile8":return tile8;
+            case "myTile1":
+            case "tile10":return tile10;
         }
         return null;
     })
