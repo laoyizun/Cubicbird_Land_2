@@ -14,23 +14,23 @@
         ],
         "displayName": "级别2"
     },
-    "dz_tile11": {
+    "tile11": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAd3d3dwAAAAB3d3d3AAAAAHd3d3cAAAAAd3d3dwAAAAB3d3d3AAAAAHd3d3cAAAAAd3d3dwAAAAB3d3d3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "dz_myTile2"
+        "displayName": "myTile2"
     },
-    "dz_tile8": {
+    "tile8": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARERERAAAAABEREREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "dz_myTile"
+        "displayName": "myTile"
     },
-    "dz_tile10": {
+    "tile10": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVQAAAABVVVVVAAAAAFVVVVUAAAAAVVVVVQAAAABVVVVVAAAAAFVVVVUAAAAAVVVVVQAAAABVVVVVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "dz_myTile1"
+        "displayName": "myTile1"
     },
     "dz_级别2": {
         "id": "dz_级别2",
@@ -41,9 +41,9 @@
             "sprites.dungeon.floorLight0",
             "sprites.dungeon.darkGroundCenter",
             "sprites.castle.tileGrass3",
-            "myTiles.dz_tile8",
-            "myTiles.dz_tile10",
-            "myTiles.dz_tile11"
+            "myTiles.tile8",
+            "myTiles.tile10",
+            "myTiles.tile11"
         ],
         "displayName": "dz_级别2"
     },
