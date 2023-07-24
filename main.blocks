@@ -1,1 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="X;Tu~YB1k{omNr(yy3vk" x="0" y="0"><statement name="HANDLER"><block type="cbland_startVillage" id="H_~4x:M@b0)9Ka}NnjLR"></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="z@@h^t%Nz^fn{t+H@0=+" data="0" x="343" y="-12" h="160" w="470">scene_util.captureRegisteringRoomScenes(() =&gt; {
+chickcoop.prepareChickCoop()
+game.popScene()
+})</comment><block type="pxt-on-start" id="vO*TW`JG5DO4)?6v5d=N" x="10" y="10"><statement name="HANDLER"><block type="typescript_statement" id="YgT^:JVZ/o:_8oeaYDw_" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="game.pushScene()" numlines="1"></mutation></block></statement></block></xml>
