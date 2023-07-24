@@ -1,5 +1,5 @@
 {
-    "name": "方块鸟大陆",
+    "name": "方块鸟大陆二期",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -28,7 +28,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "yotta": {
         "config": {
             "PXT_GC_CHECKS": 1
