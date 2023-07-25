@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.30",
-        "CBL-ballgame-ext": "pub:23882-47040-20797-10520"
+        "CBL-ballgame-ext": "pub:23882-47040-20797-10520",
+        "武器店-朱浩然-ext": "pub:79928-37725-80936-13083"
     },
     "files": [
         "main.blocks",
