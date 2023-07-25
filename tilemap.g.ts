@@ -66,7 +66,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`, [myTiles.transparency16,sprites.dungeon.floorLight2,sprites.dungeon.hazardWater,myTiles.tile8,myTiles.tile1,myTiles.tile2,myTiles.tile3], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.floorLight2,sprites.dungeon.hazardWater,myTiles.zhr_tile8,myTiles.zhr_tile1,myTiles.zhr_tile2,myTiles.zhr_tile3], TileScale.Sixteen);
  }
         return null;
     })
