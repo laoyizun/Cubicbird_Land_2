@@ -47,6 +47,47 @@
         ],
         "displayName": "dz_级别2"
     },
+
+    "zhr_tile8": {
+        "data": "hwQQABAAAADd3d3d3d3d3f///////93d7+7u7u7+3f/v7u7u7v7d7+/u7u7u/v/v7+7u7u7+7u7v7u7u7v7u7u/u7u7u/u7u7+7u7u7+7u7v7u7u7v7u7u/u7u7u/u7u7+7u7u7+/+/v7u7u7v7d7+/u7u7u/t3/////////3d3d3d3d3d3d3Q==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "zhr_myTile"
+    },
+    "zhr_tile1": {
+        "data": "hwQQABAAAADd3d3d3d3d3f///////93d7+7u7u7+3f/v7u7u7v7d7+/u7u7u/v/v7+7u3u3+7u7v7u7b7f7u7u/uvrvu/u7u7+676+7+7u7vvrvu7v7u7u/r6+7u/u7u777u7u7+/+/v7u7u7v7d7+/u7u7u/t3/////////3d3d3d3d3d3d3Q==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "zhr_myTile0"
+    },
+    "zhr_tile2": {
+        "data": "hwQQABAAAADd3d3d3d3d3f///////93d7+7u7u7+3f/v7u7r7v7d7+/uvrvu/v/v7+67u+v+7u7vvuvuu/7u7u+76+67++7u777r7rv+7u7v7ru76/7u7u/uvrvu/u7u7+7u6+7+/+/v7u7u7v7d7+/u7u7u/t3/////////3d3d3d3d3d3d3Q==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "zhr_myTile1"
+    },
+    "zhr_tile3": {
+        "data": "hwQQABAAAADd3d3d3d3d3f///////93dv0tEQkT73f/vS0RCJPvd7+8uJCJE/v/v704iIkL+7u7vTiIiQv7u7u9OIiJC/u7u704iIkL+7u7vTiIiQv7u7u9OJCJE/u7u705CRCT+/+/vS0RERPvd779LRCRE+93/////////3d3d3d3d3d3d3Q==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "zhr_myTile2"
+    },
+    "zhr_级别2": {
+        "id": "级别2",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTA0MDUwNjAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAyMDIwMjAyMDEwMTAxMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjIyMjIyMjIyMjIyMjIyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.floorLight2",
+            "sprites.dungeon.hazardWater",
+            "myTiles.zhr_tile8",
+            "myTiles.zhr_tile1",
+            "myTiles.zhr_tile2",
+            "myTiles.zhr_tile3"
+        ],
+        "displayName": "zhr_级别2"
+    },
+
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
