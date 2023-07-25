@@ -3,7 +3,7 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.29",
+        "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.30",
         "CBL-ballgame-ext": "pub:23882-47040-20797-10520"
     },
     "files": [
@@ -28,7 +28,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "yotta": {
         "config": {
             "PXT_GC_CHECKS": 1
