@@ -46,9 +46,6 @@
         "tilemapTile": true,
         "displayName": "zhr_myTile2"
     },
-
-
-
     "zyx_tile2": {
         "data": "hwQQABAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIWIiIiIiIhYhYiIiIiIiFWFiIiIiIhYVYWIiIiIiFVVVVVVVYhYVVVVVVVViFhVVVVVVVWIiFVVhYiIiIiIWFWFiIiIiIiIVYWIiIiIiIhYhYiIiIiIiIiFiIiIiIiIiIiIiIiIiIiIiIiIiA==",
         "mimeType": "image/x-mkcd-f4",
@@ -217,8 +214,7 @@
         "tilemapTile": true,
         "displayName": "zyx_myTile26"
     },
-
-"xcx_tile1": {
+    "xcx_tile1": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
@@ -283,9 +279,6 @@
         ],
         "displayName": "xcx_级别4"
     },
-
-
-
     "zyx_级别3": {
         "id": "zyx_级别3",
         "mimeType": "application/mkcd-tilemap",
@@ -339,9 +332,6 @@
         ],
         "displayName": "zyx_级别2"
     },
-
-
-
     "zhr_级别2": {
         "id": "zhr_级别2",
         "mimeType": "application/mkcd-tilemap",
