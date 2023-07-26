@@ -23,7 +23,7 @@
         "displayName": "myTile1"
     },
 
- "zhr_tile8": {
+	"zhr_tile8": {
         "data": "hwQQABAAAADd3d3d3d3d3f///////93d7+7u7u7+3f/v7u7u7v7d7+/u7u7u/v/v7+7u7u7+7u7v7u7u7v7u7u/u7u7u/u7u7+7u7u7+7u7v7u7u7v7u7u/u7u7u/u7u7+7u7u7+/+/v7u7u7v7d7+/u7u7u/t3/////////3d3d3d3d3d3d3Q==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
@@ -302,10 +302,6 @@
        "mimeType": "image/x-mkcd-f4",
        "tilemapTile": true
    },
-   
-   
-   
-   
    "xcx_tile3": {
        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
        "mimeType": "image/x-mkcd-f4",
