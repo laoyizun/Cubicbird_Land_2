@@ -1,8 +1,5 @@
 game.pushScene()
-scene_util.captureRegisteringRoomScenes(()=>{
-    DzBasketball.prepare_DzBasketball()
-    game.popScene()
-})
+
 scene_util.captureRegisteringRoomScenes(() => {
     zhr_room.prepare_zhr_room()
     game.popScene()
@@ -12,7 +9,7 @@ scene_util.captureRegisteringRoomScenes(() => {
     game.popScene()
 })
 scene_util.captureRegisteringRoomScenes(() => {
-    xcx_room.prepare_xcx_room()
+    //xcx_room.prepare_xcx_room()
     game.popScene()
 })
 cbland.startVillage(false)
