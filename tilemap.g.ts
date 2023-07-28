@@ -589,11 +589,17 @@ namespace myTiles {
             case "zyx_tile28":return zyx_tile28;
             case "myTile45":
             case "zyx_tile30":return zyx_tile30;
+            case "myTile57":   
             case "zyx_tile31":return zyx_tile31;
+            case "myTile58":   
             case "zyx_tile32":return zyx_tile32;
+            case "myTile59":   
             case "zyx_tile33":return zyx_tile33;
+            case "myTile60":   
             case "zyx_tile34":return zyx_tile34;
+            case "myTile61":   
             case "zyx_tile35":return zyx_tile35;
+            case "myTile62":   
             case "zyx_tile36":return zyx_tile36;
             case "myTile46":
             case "zyx_tile17":return zyx_tile17;
