@@ -4,7 +4,9 @@
     "dependencies": {
         "device": "*",
         "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.31",
-        "CBL-ballgame-ext": "pub:23882-47040-20797-10520"
+        "CBL-ballgame-ext": "pub:23882-47040-20797-10520",
+        "武器店 朱浩然-ext": "pub:99689-27810-50685-66064",
+        "思维持学习店——湛一曦-ext": "pub:15855-71641-17867-39838"
     },
     "files": [
         "main.blocks",
@@ -28,7 +30,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "yotta": {
         "config": {
             "PXT_GC_CHECKS": 1

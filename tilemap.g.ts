@@ -43,8 +43,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const zhr_tile20 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const transparency16 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const zyx_tile2 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const zyx_tile3 = image.ofBuffer(hex``);
@@ -180,7 +178,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.dungeon.floorLight2,sprites.dungeon.hazardWater,myTiles.zhr_tile8,myTiles.zhr_tile1,myTiles.zhr_tile2,myTiles.zhr_tile3,myTiles.zhr_tile4,myTiles.zhr_tile6,myTiles.zhr_tile5,myTiles.zhr_tile9,myTiles.zhr_tile7,myTiles.zhr_tile10,myTiles.zhr_tile11,myTiles.zhr_tile12,myTiles.zhr_tile13,myTiles.zhr_tile19,myTiles.zhr_tile20], TileScale.Sixteen);
-case "zyx_级别7":
+            case "zyx_级别7":
             case "zyx_级别7":return tiles.createTilemap(hex`19000a000b0b0b0b050606070b0b0b0b0b1312121212121212121212110b0b0b0b050918070b0b0b0b0b1012121212121212121212110b0b0b0b080304080b0b0b0b0b0e0d0d0d0d0d0d0d0d0d0d0f0b0b0b0b020101020b0b0b0b0b0e0d0d0d0d0d0d0d0d0d0d0f0b0b0b0b0b01010b0b0b0b0b0b0e0d0d0d0d0d170d0d0d0d0f0b0b0b0b0b01010b0b0b0b0b0b0e0d0d0d0d0d0d0d0d0d0d0f0b0b0b0b0b0c0c0b0b0b0b0b0b0e0d0d0d0d0d0d0d0d0d0d0f0b0b0b0b0b01010b0b0b0b0b0b0e0d0d0d0d0d0d0d0d0d0d0f0b0b0b0b0b0b0a0b0b0b0b0b0b1415151515151515151515160b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b`, img`
 . . . . 2 2 2 2 . . . . . . . . . . . . . . . . . 
 . . . . 2 . . 2 . . . . . . . . . . . . . . . . . 
@@ -192,7 +190,7 @@ case "zyx_级别7":
 . . . . 2 . . 2 . . . . . . . . . . . . . . . . . 
 . . . . 2 . . 2 . . . . . . . . . . . . . . . . . 
 . . . 2 . . . . 2 . . . . . . . . . . . . . . . . 
-`, [myTiles.transparency16,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile1,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile20,myTiles.tile21,myTiles.tile23,myTiles.tile25,myTiles.tile12,myTiles.tile18,myTiles.tile24,myTiles.tile28,myTiles.tile30], TileScale.Sixteen);
+`, [myTiles.transparency16,myTiles.zyx_tile2,myTiles.zyx_tile3,myTiles.zyx_tile4,myTiles.zyx_tile5,myTiles.zyx_tile6,myTiles.zyx_tile7,myTiles.zyx_tile8,myTiles.zyx_tile9,myTiles.zyx_tile10,myTiles.zyx_tile11,myTiles.zyx_tile1,myTiles.zyx_tile13,myTiles.zyx_tile14,myTiles.zyx_tile15,myTiles.zyx_tile16,myTiles.zyx_tile20,myTiles.zyx_tile21,myTiles.zyx_tile23,myTiles.zyx_tile25,myTiles.zyx_tile12,myTiles.zyx_tile18,myTiles.zyx_tile24,myTiles.zyx_tile28,myTiles.zyx_tile30], TileScale.Sixteen);
             case "zyx_级别2":
             case "zyx_级别2":return tiles.createTilemap(hex`960010000101010106070708010101010113121212121212121212121125252525252525251f1a2222222222222225252525252525252525252c26262627262626262626262626262626262626262626262626262626262626262626262630262626262626262626262626262626262629292929292929292525252525252525252525252525252525252525252525252525252525252525252501010101060a180801010101011012121212121212121212112525252525252525191b1b1b1d1b1d1d23252525252525252525252527262626272626262626262626262626262626262626262726262626262626302626272626262626263026262626272626262626262626252525252525252525252525252525252525252525252525252525252525252525252525252525252525010101010903040901010101010e0d0d0d0d0d0d0d0d0d0d0f2525252525252525191b1b1b1b1d1b1d232525252525252525252525262626262726263026262626262626302626262627262626262626262630302626262726262630262626262626262626262629282627272525252525252525252525252525252525252525252525252e252e252525252525252525252525252525010101010502020501010101010e0d0d0d0d0d0d0d0d0d0d0f2525252525252525191c1b1b1d1b1d1d23252525252525252525252526262627272626262626262626262626262626262626262626262627262626262626272626262626263026262626262626272727262626252525252525252e252e2525252525252525252525252525252525252525252525252525252525252525010101010102020101010101010e0d0d0d0d0d140d0d0d0d0f2525252525252525191b1b1b1b1d1b1e232525252525252525252525262626262726262626263030303026262630262626263026262626262626262626272727262626262626262626262626262626262726262525252e2525252e252e252525252525252525252e2e2e2e252e2e2e2e25252525252525252525252525010101010102020101010101010e0d0d0d0d0d0d0d0d0d0d0f2525252525252525191b1b1b1d1b1d1d23252525252525252525252527262626272626262626262626262626262626262626262626262626262626262727262727262626262626262627272626262626262626252525252e252e2e2e2e252525252525252525252e25252e25252e2525252e252525252e25252525252501010101010c0c0101010101010e0d0d0d0d0d0d0d0d0d0d0f2525252525252525191b1b1b1b1d1b1b23252525252525252525252526262626273026262626262626262626262626262627262627262626262626272726262627272626262726272626262627262626262726252525252525252e252e252525252525252525252e25252e252e2e2e2e25252e25252e252e2e2e252525010101010102020101010101010e0d0d0d0d0d0d0d0d0d0d0f2525252525252525191b1b1b1d1b1d1d2325252525252525252525252626262727262626262626262626262626262626262726262626262626262727262626262727272626262726262626262628262627262625252e2e2525252e2e2e252525252525252525252e25252e25252e25252525252e2e2525252e252525250101010101010b0101010101011516161616161616161616172525252525252525191b1b1b1b1d1b1b23252525252525252525252526262626272626262626262626262726272727272627262626262626262727262626262626262727262626262626272626262626262726252525252525252e252e252525252525252525252e2e2e2e252e2e2e2e2525252e2e2525252e25252525010101010101010101010101010101010101010101010101012525252525252525202121212121212124252525252525252525252527262626272626262626262627262726262626262627262626262626272726262626262626262627272626262626262626262726262626252525252e252e2e2e2e2e2e25252e2e2e2e2e252e25252e25252e252e25252e25252e25252e252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525262626262726262626262726272627262627262626272626262626272726262626262626262626262727262627262626262726262627262525252e25252e25252e2525252d2525252525252e25252e252e2e252e252e252525252e252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252527272b2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2525252e25252e25252e2e2525252525252525252e25252e2e2e2e2e2e2e2e252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252a2a2a2a2a292a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2b2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2b2525252525252e252e25252e25252525252525252e2e2e2e252e2e2e2e2e2e2e2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252a2a2b272a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2525252525252e2e2e2e2e2e2e252525252525252525252525252e252e2e2e2e252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525272a2a272a2a2a2a2a2a2a2a2a2a2f2a2a2a2a2a2a2a2a2a2a2a2a2a2b2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a25252525252525252525252f252525252525252525252525252e2e2e252e2e2e25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252527272a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a282a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2b25252525252525252d252525252525252525252525252525252525252525252525252525252525252525`, img`
 22222222222222222222222222222222222222222222222222222....2............................................................................................
@@ -211,8 +209,7 @@ case "zyx_级别7":
 22222222222222222222222222222222222222222222222222222...2222222222222222222222222...2222222222222222222222222............2222222222222222222222.....2.
 222222222222222222222222222222222222222222222222222222..22222222222.................2222222222222222222222222.......................................2.
 2222222222222222222222222222222222222222222222222222222.............222222222222......................................................................
-`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile4,myTiles.tile5,myTiles.tile3,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile20,myTiles.tile21,myTiles.tile23,myTiles.tile25,myTiles.tile28,myTiles.tile12,myTiles.tile18,myTiles.tile24,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35,myTiles.tile36,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouth,sprites.dungeon.darkGroundNorth,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundSouthEast0,myTiles.tile41,myTiles.tile17,myTiles.tile26,myTiles.tile39,myTiles.tile22,sprites.castle.tileGrass3,sprites.castle.tileGrass1,myTiles.tile42,myTiles.tile40,myTiles.tile43,myTiles.tile44,myTiles.tile19], TileScale.Sixteen);
-
+`, [myTiles.transparency16,myTiles.zyx_tile1,myTiles.zyx_tile2,myTiles.zyx_tile4,myTiles.zyx_tile5,myTiles.zyx_tile3,myTiles.zyx_tile6,myTiles.zyx_tile7,myTiles.zyx_tile8,myTiles.zyx_tile9,myTiles.zyx_tile10,myTiles.zyx_tile11,myTiles.zyx_tile13,myTiles.zyx_tile14,myTiles.zyx_tile15,myTiles.zyx_tile16,myTiles.zyx_tile20,myTiles.zyx_tile21,myTiles.zyx_tile23,myTiles.zyx_tile25,myTiles.zyx_tile28,myTiles.zyx_tile12,myTiles.zyx_tile18,myTiles.zyx_tile24,myTiles.zyx_tile30,myTiles.zyx_tile31,myTiles.zyx_tile32,myTiles.zyx_tile33,myTiles.zyx_tile34,myTiles.zyx_tile35,myTiles.zyx_tile36,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouth,sprites.dungeon.darkGroundNorth,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundSouthEast0,myTiles.zyx_tile41,myTiles.zyx_tile17,myTiles.zyx_tile26,myTiles.zyx_tile39,myTiles.zyx_tile22,sprites.castle.tileGrass3,sprites.castle.tileGrass1,myTiles.zyx_tile42,myTiles.zyx_tile40,myTiles.zyx_tile43,myTiles.zyx_tile44,myTiles.zyx_tile19], TileScale.Sixteen);
         }
         return null;
     })
@@ -260,54 +257,53 @@ case "zyx_级别7":
             case "zhr_tile19":return zhr_tile19;
             case "myTile18":
             case "zhr_tile20":return zhr_tile20;
-
-            case "myTile0":
-            case "zyx_tile2":return zyx_tile2;
-            case "myTile1":
-            case "zyx_tile3":return zyx_tile3;
-            case "myTile2":
-            case "zyx_tile4":return zyx_tile4;
-            case "myTile3":
-            case "zyx_tile5":return zyx_tile5;
-            case "myTile4":
-            case "zyx_tile6":return zyx_tile6;
-            case "myTile5":
-            case "zyx_tile7":return zyx_tile7;
-            case "myTile6":
-            case "zyx_tile8":return zyx_tile8;
-            case "myTile7":
-            case "zyx_tile9":return zyx_tile9;
-            case "myTile8":
-            case "zyx_tile10":return zyx_tile10;
-            case "myTile9":
-            case "zyx_tile11":return zyx_tile11;
-            case "myTile":
-            case "zyx_tile1":return zyx_tile1;
-            case "myTile11":
-            case "zyx_tile13":return zyx_tile13;
-            case "myTile12":
-            case "zyx_tile14":return zyx_tile14;
-            case "myTile13":
-            case "zyx_tile15":return zyx_tile15;
-            case "myTile14":
-            case "zyx_tile16":return zyx_tile16;
-            case "myTile18":
-            case "zyx_tile20":return zyx_tile20;
             case "myTile19":
-            case "zyx_tile21":return zyx_tile21;
+            case "zyx_tile2":return zyx_tile2;
+            case "myTile20":
+            case "zyx_tile3":return zyx_tile3;
             case "myTile21":
-            case "zyx_tile23":return zyx_tile23;
-            case "myTile23":
-            case "zyx_tile25":return zyx_tile25;
-            case "myTile10":
-            case "zyx_tile12":return zyx_tile12;
-            case "myTile16":
-            case "zyx_tile18":return zyx_tile18;
+            case "zyx_tile4":return zyx_tile4;
             case "myTile22":
-            case "zyx_tile24":return zyx_tile24;
+            case "zyx_tile5":return zyx_tile5;
+            case "myTile23":
+            case "zyx_tile6":return zyx_tile6;
+            case "myTile24":
+            case "zyx_tile7":return zyx_tile7;
+            case "myTile25":
+            case "zyx_tile8":return zyx_tile8;
             case "myTile26":
-            case "zyx_tile28":return zyx_tile28;
+            case "zyx_tile9":return zyx_tile9;
+            case "myTile27":
+            case "zyx_tile10":return zyx_tile10;
             case "myTile28":
+            case "zyx_tile11":return zyx_tile11;
+            case "myTile29":
+            case "zyx_tile1":return zyx_tile1;
+            case "myTile30":
+            case "zyx_tile13":return zyx_tile13;
+            case "myTile31":
+            case "zyx_tile14":return zyx_tile14;
+            case "myTile32":
+            case "zyx_tile15":return zyx_tile15;
+            case "myTile33":
+            case "zyx_tile16":return zyx_tile16;
+            case "myTile34":
+            case "zyx_tile20":return zyx_tile20;
+            case "myTile35":
+            case "zyx_tile21":return zyx_tile21;
+            case "myTile36":
+            case "zyx_tile23":return zyx_tile23;
+            case "myTile37":
+            case "zyx_tile25":return zyx_tile25;
+            case "myTile38":
+            case "zyx_tile12":return zyx_tile12;
+            case "myTile39":
+            case "zyx_tile18":return zyx_tile18;
+            case "myTile40":
+            case "zyx_tile24":return zyx_tile24;
+            case "myTile41":
+            case "zyx_tile28":return zyx_tile28;
+            case "myTile42":
             case "zyx_tile30":return zyx_tile30;
             case "zyx_tile31":return zyx_tile31;
             case "zyx_tile32":return zyx_tile32;
@@ -315,27 +311,27 @@ case "zyx_级别7":
             case "zyx_tile34":return zyx_tile34;
             case "zyx_tile35":return zyx_tile35;
             case "zyx_tile36":return zyx_tile36;
-            case "myTile15":
+            case "myTile43":
             case "zyx_tile17":return zyx_tile17;
-            case "myTile17":
+            case "myTile44":
             case "zyx_tile19":return zyx_tile19;
-            case "myTile24":
+            case "myTile45":
             case "zyx_tile26":return zyx_tile26;
-            case "myTile30":
+            case "myTile46":
             case "zyx_tile38":return zyx_tile38;
-            case "myTile31":
+            case "myTile47":
             case "zyx_tile39":return zyx_tile39;
-            case "myTile32":
+            case "myTile48":
             case "zyx_tile40":return zyx_tile40;
-            case "myTile20":
+            case "myTile49":
             case "zyx_tile22":return zyx_tile22;
-            case "myTile33":
+            case "myTile50":
             case "zyx_tile41":return zyx_tile41;
-            case "myTile34":
+            case "myTile51":
             case "zyx_tile42":return zyx_tile42;
-            case "myTile35":
+            case "myTile52":
             case "zyx_tile43":return zyx_tile43;
-            case "myTile36":
+            case "myTile53":
             case "zyx_tile44":return zyx_tile44;
         }
         return null;
