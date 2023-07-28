@@ -435,39 +435,7 @@
         ],
         "displayName": "zhr_级别2"
     },
-    "zyx_级别7": {
-        "id": "zyx_级别7",
-        "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxOTAwMGEwMDBiMGIwYjBiMDUwNjA2MDcwYjBiMGIwYjBiMTMxMjEyMTIxMjEyMTIxMjEyMTIxMjExMGIwYjBiMGIwNTA5MTgwNzBiMGIwYjBiMGIxMDEyMTIxMjEyMTIxMjEyMTIxMjEyMTEwYjBiMGIwYjA4MDMwNDA4MGIwYjBiMGIwYjBlMGQwZDBkMGQwZDBkMGQwZDBkMGQwZjBiMGIwYjBiMDIwMTAxMDIwYjBiMGIwYjBiMGUwZDBkMGQwZDBkMGQwZDBkMGQwZDBmMGIwYjBiMGIwYjAxMDEwYjBiMGIwYjBiMGIwZTBkMGQwZDBkMGQxNzBkMGQwZDBkMGYwYjBiMGIwYjBiMDEwMTBiMGIwYjBiMGIwYjBlMGQwZDBkMGQwZDBkMGQwZDBkMGQwZjBiMGIwYjBiMGIwYzBjMGIwYjBiMGIwYjBiMGUwZDBkMGQwZDBkMGQwZDBkMGQwZDBmMGIwYjBiMGIwYjAxMDEwYjBiMGIwYjBiMGIwZTBkMGQwZDBkMGQwZDBkMGQwZDBkMGYwYjBiMGIwYjBiMGIwYTBiMGIwYjBiMGIwYjE0MTUxNTE1MTUxNTE1MTUxNTE1MTUxNjBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBiMDAwMDIyMjIwMDAwMDAwMDAwMDAwMDAwMDAwMDIwMDAwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDIyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjAwMDAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjIwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMDAwMDIwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDIwMDAwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDIyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIwMDIwMDAwMDAwMDAwMDAwMDAwMA==",
-        "tileset": [
-            "myTiles.transparency16",
-            "myTiles.zyx_tile2",
-            "myTiles.zyx_tile3",
-            "myTiles.zyx_tile4",
-            "myTiles.zyx_tile5",
-            "myTiles.zyx_tile6",
-            "myTiles.zyx_tile7",
-            "myTiles.zyx_tile8",
-            "myTiles.zyx_tile9",
-            "myTiles.zyx_tile10",
-            "myTiles.zyx_tile11",
-            "myTiles.zyx_tile1",
-            "myTiles.zyx_tile13",
-            "myTiles.zyx_tile14",
-            "myTiles.zyx_tile15",
-            "myTiles.zyx_tile16",
-            "myTiles.zyx_tile20",
-            "myTiles.zyx_tile21",
-            "myTiles.zyx_tile23",
-            "myTiles.zyx_tile25",
-            "myTiles.zyx_tile12",
-            "myTiles.zyx_tile18",
-            "myTiles.zyx_tile24",
-            "myTiles.zyx_tile28",
-            "myTiles.zyx_tile30"
-        ],
-        "displayName": "zyx_级别7"
-    },
+    
     "zyx_级别2": {
         "id": "zyx_级别2",
         "mimeType": "application/mkcd-tilemap",
